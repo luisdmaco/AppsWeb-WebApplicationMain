@@ -53,15 +53,19 @@
 }
 
 .changes{
+
   background-color: #ffd740;
   color: black;
   width: 8%;
   margin-top: 10px;
+
 }
 
 .logo-image {
+
   width: 350px;
   height: auto;
+
 }
 
 .retamanio{
