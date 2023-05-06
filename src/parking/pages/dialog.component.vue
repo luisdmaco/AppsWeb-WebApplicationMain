@@ -1,11 +1,11 @@
 <template>
   <div>
-    <button @click="showPopup">Mostrar Pop-up</button>
+    <button @click="showPopup">Show Pop-up</button>
     <div v-if="show">
       <div class="popup-overlay" @click="hidePopup"></div>
       <div class="popup">
         <p>Este es el contenido del Pop-up</p>
-        <button @click="hidePopup">Cerrar</button>
+        <button @click="hidePopup">Close</button>
       </div>
     </div>
   </div>
