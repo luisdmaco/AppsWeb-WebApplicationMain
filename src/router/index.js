@@ -17,27 +17,27 @@ const router = createRouter({
     {
       path: '/profile',
       name: 'profile',
-      component: () => import("../parking/pages/user-login.component.vue")
+      component: () => import("../componetes/pages/user-login.component.vue")
     },
     {
       path: '/parkingList',
       name: 'parkingList',
-      component: () => import("../parking/pages/park-list.component.vue")
+      component: () => import("../componetes/pages/park-list.component.vue")
     },
     {
       path: '/login',
       name: 'login',
-      component: () => import("../parking/pages/login-page.component.vue")
+      component: () => import("../componetes/pages/login-page.component.vue")
     },
     {
       path: '/addnewtrip',
       name: 'addnewtrip',
-      component: () => import("../parking/pages/add-new-trip.component.vue")
+      component: () => import("../componetes/pages/add-new-trip.component.vue")
     },
     {
       path:'/flighthistory',
       name:'flighthistory',
-      component: () => import("../parking/pages/flighthistory.component.vue")
+      component: () => import("../componetes/pages/flighthistory.component.vue")
     },
   ]
 

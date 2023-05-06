@@ -1,6 +1,6 @@
 import http from '../../core/services/http-common';
 
-export class ParkingApiService {
+export class FlightsApiService {
     getAll() {
         return http.get('/parking');
     }

@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import {ParkingApiService} from "../services/parking-api.service";
+import {FlightsApiService} from "../services/flights-api.service";
 export default {
   name: "park-list.component",
   data() {
@@ -41,7 +41,7 @@ export default {
     };
   },
   created() {
-    this.parkingSpacesService = new ParkingApiService();
+    this.parkingSpacesService = new FlightsApiService();
     this.parkingSpacesService.getAll().then((response) => {
       this.parkingSpaces = response.data;
       console.log(this.parkingSpaces);
