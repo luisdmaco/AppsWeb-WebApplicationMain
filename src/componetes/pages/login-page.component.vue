@@ -14,26 +14,16 @@
       <pv-button class="width" @click="redirecthome" label="Login"></pv-button><br><br>
       <pv-button class="changes" @click="redirectToDashboard" label="Sign Up"></pv-button>
 
+
+
     </div>
   </div>
 </template>
 
 <script>
 
-
-export default {
-  name: "login-page",
-  methods: {
-    redirectToDashboard() {
-      this.$router.push('/profile');
-    },
-    redirecthome() {
-      this.$router.push('/home');
-    }
-  }
-}
-
 </script>
+
 
 <style scoped>
 .body {

@@ -10,14 +10,20 @@ export class FlightsApiService {
     }
 
     create(data) {
+
         return http.post('/parking', data);
     }
+
 
     update(id, data) {
         return http.put(`/parking/${id}`, data);
     }
 
     delete(id) {
+
+
+
+
         return http.delete(`/parking/${id}`);
     }
 

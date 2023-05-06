@@ -10,6 +10,7 @@
                 </span>
       </div>
 
+
       <div class="form-field">
         <label for="destination" class="input-label">Destination</label>
         <span class="p-float-label p-4">
@@ -23,6 +24,7 @@
                     <pv-input-text placeholder="DD/MM/YYYY" type="text" id="Date" class="custom-input"/>
                 </span>
       </div>
+
 
       <pv-button class="width"  label="Register"></pv-button>
 
@@ -49,25 +51,32 @@
   margin-top: 1px;
 
 }
+
 .changes{
   background-color: #ffd740;
   color: black;
   width: 8%;
   margin-top: 10px;
 }
+
 .logo-image {
   width: 350px;
   height: auto;
 }
+
 .retamanio{
   width: 350px;
   height: auto;
 }
+
 .form-field {
   margin-bottom: 20px;
   width: auto;
   length: 200px;
 }
+
+
+
 .input-label {
   display: block;
   color: #282828;

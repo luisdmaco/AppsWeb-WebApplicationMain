@@ -17,6 +17,8 @@
         <td>{{ trip.date }}</td>
       </tr>
       </tbody>
+
+
     </table>
   </div>
 </template>
